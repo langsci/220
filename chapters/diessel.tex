@@ -14,44 +14,18 @@ It is a standard assumption of historical linguistics that syntactic structures 
 Clause combining in discourse has a backwards orientation. Paratactic sentences are usually related to previous sentences, as evidenced by the occurrence of anaphoric pronouns and clause linkers that connect the current sentence to participants and propositions of the preceding sentence or discourse (cf. (1)).
  
 
-\ea\label{ex:key:}
-
-\textit{Jo\tikzmark{john}{\vphantom{fj}}hn\textsubscript{i}} was accepted to Harvard.\tikzmark{fullstop}{} \textit{There\tikzmark{f}{}fore, h\tikzmark{he}{\vphantom{fj}}e\textsubscript{i}} moved to Boston.\\ 
-
-\begin{tikzpicture}[overlay,remember picture]
-  \node (h2) [below=0mm of he] {};
-  \node (john2) [below=0mm of john] {};
-  \draw[thick,dotted] (he) -- (h2.south);
-  \draw[thick,dotted] (h2.south) -- (john2.south);
-  \draw[thick,dotted,-latex] (john2.south) -- (john);
-  \draw[thick,dashed,Circle-latex,transform canvas={yshift=3mm}] (f.north) --   (fullstop.north);
-  
-% \draw[dashed,rounded corners]   (x5.south) |- (A3.east) ;
-\end{tikzpicture}
+\ea%1
+\label{ex:key:1}
+\ConnectTail{\textit{John\textsubscript{i}}} was accepted to Harvard. \begin{tikzpicture}[baseline,anchor=base,inner xsep=0pt] \node (Diesseltherefore) {\textit{Therefore,}};\draw[dashed,{Circle[]}-{Triangle[]}] (Diesseltherefore.north) -- (Diesseltherefore.north west);\end{tikzpicture} \textit{\ConnectHead*{he\textsubscript{i}}} moved to Boston.
 \z
-
-% \draw circle [radius=#1];
 
 
 Like independent sentences, complex sentences are processed with a backwards orientation if the subordinate clause follows the main clause (e.g. \textit{John\textsubscript{i}} \textit{moved} \textit{to} \textit{Boston,} \textit{because} \textit{he\textsubscript{i}} \textit{was} \textit{accepted} \textit{to} \textit{Harvard}). However, unlike paratactic sentences, preposed subordinate clauses have an inherent forward orientation in that pronouns and clause linkers are related to elements of the upcoming main clause (cf. (2)).
 
- 
-\begin{figure}
-\includegraphics[width=\textwidth]{figures/diessel-img1.png}
-\end{figure}
-
-
-%%[Warning: Draw object ignored]
-
-\ea\label{ex:key:}
 \ea%2
-    \label{ex:key:2} Because \textit{he\textsubscript{i}} was accepted to Harvard, \textit{John\textsubscript{i}} moved to Boston. 
+    \label{ex:key:2} \tikz[remember picture,baseline,anchor=base] \node [inner xsep=0pt] (DiesselEx2Because) {\textit{Because}}; \ConnectTail{\textit{he\textsubscript{i}}} was accepted to \tikz[remember picture,baseline,anchor=base] \node [inner xsep=0pt] (DiesselEx2Harvard) {Harvard};, \ConnectHead{\textit{John\textsubscript{i}}} moved to Boston.
+    \tikz[remember picture,overlay] \draw[dashed,{Circle[]}-{Triangle[]}] (DiesselEx2Because.north) -- (DiesselEx2Harvard.north east);
   \z
-  \z
-  
-\begin{figure}
-\includegraphics[width=\textwidth]{figures/diessel-img2.png}
-\end{figure}
 
 Considering the projective force of preposed subordinate clauses, it is unclear if and how these structures have evolved from clause combining strategies in discourse. It is the purpose of this paper to investigate the diachronic developments of preposed subordinate clauses from a cross-linguistic perspective. Specifically, the paper is concerned with the development of preposed adverbial clauses. 
 
@@ -345,24 +319,57 @@ In fact, there is evidence that the above described correlation between the posi
 
 For instance, according to \citet[111]{Bybee2010}, the correlation between the order of verb and object and that of verb and auxiliary does not need a particular functional explanation, as auxiliaries are usually derived from the main verb of a complement construction that includes an infinitive, or some other type of verb, as verbal complement (e.g. \textit{want} \textsc{infinitive}). If the verb precedes the verbal complement of a complex VP in the diachronic source, the auxiliary precedes the main verb in the target construction; but if the verb follows the verbal complement in the diachronic source, the auxiliary is postposed to the main verb in the target construction. As a consequence of these developments, the order of auxiliary and verb correlates with that of verb and object (cf. (18)).
 
-\ea\label{ex:key:}
-[\textsc{verb}      \textsc{[verb]\textsubscript{obj}]\textsubscript{vp}}                                   \textsc{[[verb]\textsubscript{obj}}     \textsc{verb]\textsubscript{vp}}  \\
- 
-   \textsc{[aux}   \textsc{verb]\textsubscript{vp}}    \textsc{[verb}   \textsc{aux]\textsubscript{vp}}
+\newsavebox\ExEighteenbox
+\setbox0=\hbox{%%https://tex.stackexchange.com/a/366710/102558
+\begin{tikzpicture}[baseline,anchor=base,inner ysep=0pt]
+\matrix[inner ysep=0pt,matrix of nodes,nodes={anchor=base west,baseline},row sep=1cm] (DiesselEx18) {%
+{[\textsc{verb}} & {\textsc{[verb]\textsubscript{obj}]\textsubscript{vp}}} &[2cm] {\textsc{[[verb]\textsubscript{obj}}} & {\textsc{verb]\textsubscript{vp}}} \\
+{\textsc{[aux}}  & {\textsc{verb]\textsubscript{vp}}}  &  {\textsc{[verb}}  & {\textsc{aux]\textsubscript{vp}}}\\};
+\foreach \i in {1,...,4} \draw[-{Triangle[]}] let 
+                                      \p1 = (DiesselEx18-1-\i.south),
+                                      \p2 = (DiesselEx18-2-\i)
+                                  in (\x2,\y1) -- (DiesselEx18-2-\i);
+\end{tikzpicture}}
+\sbox\ExEighteenbox{\copy0}
+\ea\label{ex:key:18}
+\attop{\vspace{-\baselineskip}\usebox\ExEighteenbox}
 \z
 
 It is conceivable that the correlation between the position of adverbial subordinators and that of adverbial clauses is also due to persistence effects of grammaticalization. For instance, above we have seen that purpose clauses in Amele und cause/purpose clauses in Turkish are marked by a clause-final subordinator that also serves as a benefactive adposition in postpositional phrases. Since postpositional phrases usually precede all other constituents in Amele and Turkish (and most other head-final languages), it is a plausible hypothesis that the occurrence of final subordinators in these constructions is related to the fact that they are based on postpositions (of preposed adpositional constructions). 
 
-\ea\label{ex:key:}
-[[[ \textsc{np} ]     \textsc{p]\textsubscript{pp}}      [ \textsc{… v …]\textsubscript{s}}      \\
-    \textsc{[[…s… sub]\textsubscript{ac}}  [ \textsc{… v …]\textsubscript{mc}}]   
+\newsavebox\ExNineteenbox
+\setbox0=\hbox{%%https://tex.stackexchange.com/a/366710/102558
+\begin{tikzpicture}[baseline,anchor=base,inner ysep=0pt]
+\matrix[inner ysep=0pt,matrix of nodes,nodes={anchor=base west,baseline},row sep=1cm] (DiesselEx19) {%
+{[[[ \textsc{np} ]}  &   {\textsc{p]\textsubscript{pp}}} & {[ \textsc{… v …]\textsubscript{s}}} \\
+{\textsc{[[…s…}} & {\textsc{sub]\textsubscript{ac}}} &  {[ \textsc{… v …]\textsubscript{mc}}]}\\};
+\foreach \i in {1,...,3} \draw[-{Triangle[]}] let 
+                                      \p1 = (DiesselEx19-1-\i.south),
+                                      \p2 = (DiesselEx19-2-\i.north)
+                                  in (DiesselEx19-1-\i) -- (\x1,\y2);
+\end{tikzpicture}}
+\sbox\ExNineteenbox{\copy0}
+\ea\label{ex:key:19}
+\attop{\vspace{-\baselineskip}\usebox\ExNineteenbox}
 \z
 
 In other cases, final subordinators are based on quotative verbs, as for instance, in some temporal and causal clauses of Aguaruna and Lezgian (ex. (15–16)). Here again, the final position of the subordinator is likely to be a consequence of grammaticalization. Since quotative clauses precede the quote verb in Aguaruna and Lezgian (and many other head-final languages), the final position of the subordinator is readily explained by the fact that it evolved from a quotative verb that followed the quote clause in the source construction. 
 
-\ea\label{ex:key:}
- [[\textsc{[quote]}   \textsc{v]}         [ \textsc{… v …]\textsubscript{simple S}}      \\{}
-  [[ \textsc{… s … sub]\textsubscript{ac}}  [ \textsc{… v …]\textsubscript{mc}]\textsubscript{complex S}}   
+\newsavebox\ExTwentybox
+\setbox0=\hbox{%%https://tex.stackexchange.com/a/366710/102558
+\begin{tikzpicture}[baseline,anchor=base,inner ysep=0pt]
+\matrix[inner ysep=0pt,matrix of nodes,nodes={anchor=base west,baseline},row sep=1cm] (DiesselEx20) {%
+{[[\textsc{[quote]}} &   {\textsc{v]}}  & {[ \textsc{… v …]\textsubscript{simple S}}}\\
+{[[ \textsc{… s …}} & {\textsc{sub]\textsubscript{ac}}} &  {[ \textsc{… v …]\textsubscript{mc}]\textsubscript{complex S}}}\\};
+\foreach \i in {1,...,3} \draw[-{Triangle[]}] let 
+                                      \p1 = (DiesselEx20-1-\i.south),
+                                      \p2 = (DiesselEx20-2-\i)
+                                  in (\x2,\y1) -- (DiesselEx20-2-\i);
+\end{tikzpicture}}
+\sbox\ExTwentybox{\copy0}                                  
+\ea\label{ex:key:20}
+\attop{\vspace{-\baselineskip}\usebox\ExTwentybox}
+\todo[inline]{needs fixing}
 \z
 
 While Hawkins’ processing approach can also account for the main trends in the data, it cannot explain the exceptional cases. For instance, while postposed and flexible adverbial clauses are usually marked by initial subordinators (as predicted by Hawkins), there are 26 postposed (and flexible) adverbial clause constructions in the data in which the subordinator comes at the end of the adverbial clause, as in example (21) from Yagua.
