@@ -1,1 +1,17 @@
 \newcommand{\citeapo}[1]{\citeauthor{#1}' (\citeyear*{#1})}
+
+\newcommand{\lspxcol}{}
+\newenvironment{langscibars}[1][]{\begin{axis}[ybar,xtick=data, xticklabels from table={\mydata}{\lspxcol}, 
+        width  = \textwidth,
+	height = .3\textheight,
+    	nodes near coords, 
+	xtick=data,
+	x tick label style={},  
+	ymin=0,
+	cycle list name=langscicolors,
+	#1
+        ]}{\end{axis}}
+        
+\newcommand{\langscibar}[1]{\addplot+ table [x=i, y=#1] {\mydata};\addlegendentry{#1};}
+
+\newcommand{\langscidata}[1]{\pgfplotstableread{#1}\mydata;}
