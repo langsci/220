@@ -49,3 +49,49 @@
                                 #1,overlay] (ConnectTempTail\lsConnectTempPosition.south) -- ++(0,-#2) -| node[near start,fill=white] {#5} (ConnectTempHead\lsConnectTempPosition.south);%
     }\IfBooleanTF#6{\vspace{#2}}{}% Automatically make space below 
 } 
+
+
+% Some commands and definitions.
+\newcommand{\secn}[1]{Section~\ref{#1}}
+\newcommand{\tbl}[1]{Table~\ref{#1}}
+\newcommand{\fig}[1]{Fig.~\ref{#1}}
+\newcommand{\sect}[1]{\setcounter{equation}{0}\section{#1}}
+% \newcommand{\fatcit}[2]{(\citeNP{#1}: {#2})} % (Croft 1990: 24)
+% \newcommand{\fatcitNP}[2]{\citeNP{#1}: {#2}} % Croft 1990: 24
+% \newcommand{\fatcitA}[2]{\citeANP{#1} (\citeyearNP{#1}: {#2})}%Croft (1990: 24)
+\newcommand{\fatcit}[2]{\citep[#2]{#1}} % (Croft 1990: 24)
+\newcommand{\fatcitNP}[2]{\citealt[#2]{#1}} % Croft 1990: 24
+\newcommand{\fatcitA}[2]{\citet[#2]{#1}}%Croft (1990: 24)
+
+
+\newcommand{\mr}[1]{$\rm {#1}$}
+\newcounter{lang} 
+\newcommand{\exn}[2]{
+\vspace{-.1cm}
+\begin{tabular}{*{#1}{l}} #2
+\end{tabular}}
+\newcommand{\exNG}[2]{
+  \ea
+  {\label{#1}} #2
+  \z
+}
+
+\newcommand{\trad}[1]{ 
+  \begin{quote} #1
+  \end{quote}
+}
+\newcommand{\refP}[1]{(\ref{#1})}
+\newcounter{app}
+\setcounter{app}{0}
+\newcommand{\app}[2]{
+  \begin{quote}
+  \refstepcounter{app}{\label{#1}}
+  {\bf \large \arabic{app}}{\hspace{.5cm}}
+  {\bf \large #2}
+  \end{quote}
+  \addtocontents{toc}
+  {\protect\contentsline{section}{\theapp{\hspace{.5cm} #2}}{\thepage}}
+}
+ 
+ 
+\newcommand{\acm}[1]{{\color{red}#1}}
