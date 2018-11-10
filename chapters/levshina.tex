@@ -206,31 +206,31 @@ Long & 109 & 140 &  {249}\\
   
 
 \begin{figure}
-%%\includegraphics[width=\textwidth]{figures/levshina-img6.tif}
+\includegraphics[width=\textwidth]{figures/Figure3.eps}
 
-\begin{tikzpicture}
-\begin{axis}[
-    ybar stacked,
-	bar width=20mm,
-%     enlargelimits=0.15,
-% 	nodes near coords,
-    ymin = 0,
-    ymax = 1, 
-    legend style={at={(1.01,0.70)},
-      anchor=west,legend columns=1},
-    ylabel={Proportion},
-    symbolic x coords={Frequent, Rare},
-    xtick=data,
-    xlabel=Causing Event,
-    reverse legend,
-    x axis line style={draw=none},
-%     ticks = none
-    ]
-\addplot+[ybar,lsLightBlue] plot coordinates {(Frequent,.60) (Rare,.48)};
-\addplot+[ybar,lsLightWine] plot coordinates {(Frequent,.40) (Rare,.52)};
-\legend{Short, Long}
-\end{axis}
-\end{tikzpicture}
+% \begin{tikzpicture}
+% \begin{axis}[
+%     ybar stacked,
+% 	bar width=20mm,
+% %     enlargelimits=0.15,
+% % 	nodes near coords,
+%     ymin = 0,
+%     ymax = 1, 
+%     legend style={at={(1.01,0.70)},
+%       anchor=west,legend columns=1},
+%     ylabel={Proportion},
+%     symbolic x coords={Frequent, Rare},
+%     xtick=data,
+%     xlabel=Causing Event,
+%     reverse legend,
+%     x axis line style={draw=none},
+% %     ticks = none
+%     ]
+% \addplot+[ybar,lsLightBlue] plot coordinates {(Frequent,.60) (Rare,.48)};
+% \addplot+[ybar,lsLightWine] plot coordinates {(Frequent,.40) (Rare,.52)};
+% \legend{Short, Long}
+% \end{axis}
+% \end{tikzpicture}
 \caption{Proportions of short and long forms.}
 \label{fig:levshina:3}
 \end{figure}
@@ -240,14 +240,16 @@ A closer look at the individual subjects’ preferences reveals that most of the
   
 
 \begin{figure}
-\includegraphics[width=\textwidth]{figures/levshina-img7.jpg} 
-  \langscidata{data/levshina4.csv}
-  \renewcommand{\lspxcol}{j}
-  \begin{tikzpicture}
-    \begin{langscibars}[xlabel=Number of long forms, ylabel=Number of subjects, xtick style={draw=none},ymax=8]
-	\langscibar{Subjects} 
-    \end{langscibars} 
-  \end{tikzpicture} 
+
+\includegraphics[width=\textwidth]{figures/Figure4.eps}
+% \includegraphics[width=\textwidth]{figures/levshina-img7.jpg} 
+%   \langscidata{data/levshina4.csv}
+%   \renewcommand{\lspxcol}{j}
+%   \begin{tikzpicture}
+%     \begin{langscibars}[xlabel=Number of long forms, ylabel=Number of subjects, xtick style={draw=none},ymax=8]
+% 	\langscibar{Subjects} 
+%     \end{langscibars} 
+%   \end{tikzpicture} 
 \caption{Individual preferences for the long and short forms}
 \label{fig:levshina:4}
 \end{figure}
