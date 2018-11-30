@@ -1,30 +1,10 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%                                              %%%
-%%%     Language Science Press Master File       %%%
-%%%         follow the instructions below        %%%
-%%%                                              %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- 
-% Everything following a % is ignored
-% Some lines start with %. Remove the % to include them
-
-\documentclass[output=book
-		,modfonts
-		,nonflat
-	        ,collection
-	        ,collectionchapter
+\documentclass[output=book,modfonts,nonflat,collection,collectionchapter
 		,colorlinks,citecolor=brown
 % 		,draft,draftmode
 % 		,showindex
 	      ,multiauthors
-	      % ,nobabel
-		  ]{langsci/langscibook}                              
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% put all additional commands you need in the 
-% following files. If you do not know what this might 
-% mean, you can safely ignore this section
-
+		  ]{langsci/langscibook}                
+ 
 \input{localmetadata.tex}
 \input{localpackages.tex}
 \input{localhyphenation.tex}
@@ -64,8 +44,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %%%             Chapters                         %%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- 
-\todo{\#->\textbackslash pageref}  
+  
 \includepaper{chapters/haspelmath}
 \includepaper{chapters/cristofaro}
 \includepaper{chapters/collins}
@@ -76,20 +55,9 @@
 \includepaper{chapters/michaelis}   
 \includepaper{chapters/levshina} 
 \includepaper{chapters/epilog} 
-%  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %%%             Backmatter                       %%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% There is normally no need to change the backmatter section
 \input{backmatter.tex}
-
-\end{document} 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-%%%                  END                         %%% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% you can create your book by running
-% xelatex main.tex 
+\end{document}  

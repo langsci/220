@@ -60,7 +60,7 @@ In his 2014 monograph, Hawkins examines the structure of noun phrases (NPs) from
 \begin{figure}
 \caption{V-NP processing in VO- and OV-languages (adapted from \citealt{Hawkins2014}: 125)}
 \label{fig:ksb:1} 
-\includegraphics[width=\textwidth]{figures/Schmidtke-Bode_Figure 1.png}
+% \includegraphics[width=\textwidth]{figures/Schmidtke-Bode_Figure 1.png}
 \large
 \begin{tabular}{l@{\hspace{2cm}}l}
 \textbf{VO languages} & \textbf{OV languages} \\
@@ -143,7 +143,7 @@ No ART morph & 70 & 111 & 181\\
 \label{tab:ksb:2}
 \end{table} 
 
-The distribution in \tabref{tab:ksb:2} looks conspicuously skewed, but of course these are raw data that are not controlled for genetic and areal effects.\footnote{For similar raw data, cf. also \citet{Dryer2009}, who endorses Hawkins’ processing explanation.} Therefore, what \citeapo{Hawkins2014} analysis clearly needs to be augmented with (in this case as well as virtually all others in his book) is proper statistical modelling according to contemporary standards (cf., e.g., \citealt{Bickel2011}). To this end, I am seeking converging evidence from two complementary quantitative approaches to the data, namely mixed-effects logistic regression (cf. also \citealt{Cysouw2010,JaegerEtAl2011}) and Bickel’s (\citeyear{Bickel2011,Bickel2013}) Family Bias Method (which is particularly suitable to testing hypotheses formulated in diachronic terms). In the supplementary materials to this paper\footnote{Cf. \url{http://www.kschmidtkebode.de/publications. #ZENODO}}, I offer a more detailed, non-technical introduction to the Family Bias Method (SM1), as well as the statistical properties of all models (SM2–5). For reasons of space, I here confine myself to describing some major results of the analyses.\footnote{All statistical analyses were performed in \textit{R} 3.3.1 (\citealt{RTeam2016}). I am grateful to Taras Zakharko and Balthasar Bickel for making their Family Bias algorithm freely available (\citealt{ZakharkoBickel2011}+).}
+The distribution in \tabref{tab:ksb:2} looks conspicuously skewed, but of course these are raw data that are not controlled for genetic and areal effects.\footnote{For similar raw data, cf. also \citet{Dryer2009}, who endorses Hawkins’ processing explanation.} Therefore, what \citeapo{Hawkins2014} analysis clearly needs to be augmented with (in this case as well as virtually all others in his book) is proper statistical modelling according to contemporary standards (cf., e.g., \citealt{Bickel2011}). To this end, I am seeking converging evidence from two complementary quantitative approaches to the data, namely mixed-effects logistic regression (cf. also \citealt{Cysouw2010,JaegerEtAl2011}) and Bickel’s (\citeyear{Bickel2011,Bickel2013}) Family Bias Method (which is particularly suitable to testing hypotheses formulated in diachronic terms). In the supplementary materials to this paper\footnote{Cf. \url{http://www.kschmidtkebode.de/publications. \#ZENODO}}, I offer a more detailed, non-technical introduction to the Family Bias Method (SM1), as well as the statistical properties of all models (SM2–5). For reasons of space, I here confine myself to describing some major results of the analyses.\footnote{All statistical analyses were performed in \textit{R} 3.3.1 (\citealt{RTeam2016}). I am grateful to Taras Zakharko and Balthasar Bickel for making their Family Bias algorithm freely available (\citealt{ZakharkoBickel2011}+).}
 
 \figref{fig:ksb:2} shows that there is a significant effect of word order on the occurrence of articles in a mixed-effects regression model (\textit{β} = -0.73, \textit{p} < 0.001).\footnote{All regression analyses I performed are based on generalized linear mixed-effects models that include genealogical and macro-areal dependencies as random effects (cf. SM3). The model in \figref{fig:ksb:2}, for example, contains by-family and by-area random intercepts for the distribution of articles, while a by-area random slope for the word-order effect did not improve the model significantly and was hence excluded from the final model.} Although the model is not particularly good overall, probably missing important further predictors (\textit{R\textsuperscript{2}}\textit{\textsubscript{c}} = 0.14, \textit{C} = 0.72), Hawkins’ hypothesized effect is clearly present, as the probability of \textit{not} having articles (y-axis) increases significantly as we go from VO to OV (x-axis):
 
@@ -211,27 +211,27 @@ internally diverse & 6 & 11 & 17\\
 \label{tab:ksb:4}
 \end{table}
 
-Second, from a more qualitative perspective, there is suggestive evidence that a potential efficiency motivation in OV languages is easily overridden by other factors. For example, \citet{Ross2001} discusses an interesting case of an intense contact situation in which the Austronesian language Takia adapted its VO syntax to the OV structure of its Papuan contact language Waskia. Ross argues that, in the wake of this restructuring, Takia speakers must have shed the prenominal article word in NPs (cf. (4a)), which would be fully in line with Hawkins’ prediction. At the same time, however, the degree of linguistic accommodation was so intense that Takia speakers also did something else: They grammaticalized a postnominal deictic element into a postnominal demonstrative with some article-like functions, reproducing exactly the article pattern in Waskia (cf. (4b-c)).
+Second, from a more qualitative perspective, there is suggestive evidence that a potential efficiency motivation in OV languages is easily overridden by other factors. For example, \citet{Ross2001} discusses an interesting case of an intense contact situation in which the Austronesian language Takia adapted its VO syntax to the OV structure of its Papuan contact language Waskia. Ross argues that, in the wake of this restructuring, Takia speakers must have shed the prenominal article word in NPs (cf. (\ref{ex:ksb:4}a)), which would be fully in line with Hawkins’ prediction. At the same time, however, the degree of linguistic accommodation was so intense that Takia speakers also did something else: They grammaticalized a postnominal deictic element into a postnominal demonstrative with some article-like functions, reproducing exactly the article pattern in Waskia (cf. (\ref{ex:ksb:4}b-c)).
 
-\ea\label{ex:ksb:} 
-\ea
-\langinfo{Proto-Western Oceanic}{}{\citealt[142]{Ross2001}}\\
-\gll \textbf{a}   tam\textsuperscript{w}ata   a-ña\\
-     \textbf{\textsc{det}}   man   that-3sg\\
-\glt ‘that man’
+\ea\label{ex:ksb:4} 
+  \ea
+  \langinfo{Proto-Western Oceanic}{}{\citealt[142]{Ross2001}}\\
+  \gll \textbf{a}   tam\textsuperscript{w}ata   a-ña\\
+      \textbf{\textsc{det}}   man   that-3sg\\
+  \glt ‘that man’
 
-\ex\label{ex:ksb:}
-\langinfo{Takia}{Austronesian, Oceanic}{\citealt{Ross2001}: 140}\\
-\gll Waskia   tamol  \textbf{an}\\
-     Waskian   man   \textbf{that}\\
-\glt ‘that Waskia man’
+  \ex 
+  \langinfo{Takia}{Austronesian, Oceanic}{\citealt{Ross2001}: 140}\\
+  \gll Waskia   tamol  \textbf{an}\\
+      Waskian   man   \textbf{that}\\
+  \glt ‘that Waskia man’
 
-\ex\label{ex:ksb:}
-\langinfo{Waskia}{Nuclear Trans New Guinea, Madang}{\citealt{Ross2001}: 140}\\
-\gll Waskia   kadi   \textbf{mu}\\
-     Waskia   man   \textbf{that}\\
-\glt ‘that Waskia man’
-\z
+  \ex
+  \langinfo{Waskia}{Nuclear Trans New Guinea, Madang}{\citealt{Ross2001}: 140}\\
+  \gll Waskia   kadi   \textbf{mu}\\
+      Waskia   man   \textbf{that}\\
+  \glt ‘that Waskia man’
+  \z
 \z
 
 In other words, Takia speakers chose precisely the diachronic route that Hawkins would predict to be disfavoured, which goes to show that the alleged processing pressure cannot have been very strong, after all. In this connection, one may also recall that our regression model from above, while bringing out a significant global effect from word order type, did not provide a particularly good fit to the data. The substantial amount of variation in the data that it cannot account for must thus be attributed to other, possibly stronger factors.\footnote{Diachronic research has actually put forward a number of plausible candidates for such factors. A prominent one since at least \citet{Vennemann1975} is the loss of a case system and the concomitant rigidification of constituent order, which favours the development of articles to express information-structural distinctions that were previously coded by a more flexible word order (cf. also \citealt{Hawkins2004,HewsonBubenik2006,Fischer2010,CarlierLamiroy2014}). Another possible factor is the loss of an aspectual system (cf. \citealt{Abraham1997,Leiss2000}, 2007). However, especially the former type of explanation is often viewed critically (e.g. \citealt{Selig1992} on Romance;  \citealt{McCollMillar2000} on English; \citealt{Leiss2000} on Germanic), and there is currently no proposal as to how various factors may conspire to explain the synchronic distribution of articles (cf. also \citealt{Lüdtke1991}). For some further information and preliminary typological analyses of these factors, interested readers are kindly referred to SM5.}
