@@ -106,3 +106,9 @@
 \newcommand{\citegenv}[1]{\citeauthor{#1}'s (\citeyear{#1} [this volume])}
 \newcommand{\citealtv}[1]{\citeauthor{#1} \citeyear*{#1} [this volume]}
 % \newcommand{\citepv}[1]{(\citeauthor{#1} \citeyear*{#1} [this volume])}
+
+\newfontfamily\cn[Mapping=tex-text,Ligatures=Common,Scale=MatchUppercase]{AR PL UMing CN}
+\newcommand{\zh}[1]{{\cn #1}}
+\XeTeXlinebreaklocale 'zh'  
+\XeTeXlinebreakskip = 0pt plus 1pt
+\AdditionalFontImprint{UMing}

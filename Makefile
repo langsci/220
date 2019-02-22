@@ -31,10 +31,10 @@ main.snd: main.bbl
 	sed -i 's/.*Organisation.*//' main.adx
 	sed -i 's/.*Embassy.*//' main.adx
 	sed -i 's/.*Commission.*//' main.adx
-# 	sed -i 's/\\MakeCapital {([^}]* )}/\1/' main.adx
+	sed -i 's/\\MakeCapital {([^}]* )}/\1/' main.adx
 	sed -i 's/hyperindexformat{\\\(infn {[0-9]*\)}/\1/' main.ldx
-	python3 fixindex.py
-	mv mainmod.adx main.adx
+# 	python3 fixindex.py
+# 	mv mainmod.adx main.adx
 	makeindex -o main.and main.adx
 	makeindex -o main.lnd main.ldx
 	makeindex -o main.snd main.sdx 
@@ -71,8 +71,7 @@ githubrepo: localmetadata.tex proofreading versions.json
 	mv `cat ID` ..
 	
 versions.json: 
-	grep "^.title{" localmetadata.tex|grep -o "{.*"|egrep -o "[^{}]+">title
-	grep "^.BookDOI{" localmetadata.tex|grep -o "{.*"|egrep -o "[^{}]+">doi
+	grep "^.title{" localmetadata.tex|grep -o "{.*"|egrep -o "[^{}]+">title 
 	grep "^.author{" localmetadata.tex|grep -o "{.*"|egrep -o "[^{}]+" |sed 's/\\\(last\)\?and/"},{"name":"/g'>author
 	echo '{"versions": [{"versiontype": "proofreading",' >versions.json
 	echo -n '		"title": "' >>versions.json
@@ -81,10 +80,7 @@ versions.json:
 	echo -n  '		"authors": [{"name": "'>> versions.json
 	echo -n `cat author` >> versions.json 
 	echo  '"}],' >> versions.json 
-	echo  '	"license": "CC-BY-4.0",'>> versions.json
-	echo -n '	"DOI": "'>> versions.json
-	echo -n `cat doi` >> versions.json	
-	echo '",' >> versions.json
+	echo  '	"license": "CC-BY-4.0",'>> versions.json	
 	echo -n '	"publishedAt": "' >> versions.json
 	echo -n `date --rfc-3339=s|sed s/" "/T/|sed s/+.*/.000Z/` >> versions.json
 	echo -n '"'>> versions.json
