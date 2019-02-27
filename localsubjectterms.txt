@@ -1,2 +1,306 @@
-subject terms to index
-oneperline
+ablative
+accessibility hierarchy
+accommodation
+accusative
+acquisition
+first language acquisition
+second language acquisition
+artificial language learning
+learnability
+actualization 
+adaptation
+adjective and adjective phrase
+adjunct 
+adposition and adpositional phrase
+adverbial clause
+general
+causal clause
+conditional clause
+purpose clause
+temporal clause
+affectedness
+agent
+agreement
+alienability
+alignment
+general
+split intransitivity
+tripartite alignment
+ambiguity
+ambiguity
+disambiguation
+analogy
+analogical extension
+analogical levelling
+anaphora
+animacy
+animate
+animacy hierarchy
+annexation
+anterior 
+appositive clause
+arbritrariness
+artificial language 
+assimilation
+article
+aspect
+general
+completive
+perfective
+progressive
+attractor
+auxiliary
+Bayes factor
+binding theory
+case
+general
+ablative
+accusative
+dative
+differential case marking
+ergative
+genitive
+instrumental
+locative
+nominative
+oblique
+partitive 
+separative
+cataphora
+categorization
+causal clause 
+causative
+chunking
+classifier
+clipping
+coding asymmetry
+Cognitive Linguistics
+Comparative Method
+competing motivations
+complement clause
+completive
+complex adaptive system
+complexity
+compositionality
+conditional clause
+confound
+contact
+Construction Grammar
+convergence
+corpus
+counterevidence 
+creole
+dative
+declension class
+definiteness
+definite
+indefinite
+deixis
+deictic/indexical
+manner deixis
+demonstrative
+determiner
+devoicing
+differential object marking
+diffusion
+diphthongization 
+direct object 
+directionality
+discrimination 
+distributive
+dual
+duality of patterning
+dynamic 
+economy
+efficiency
+ejective
+embedding
+emphasis
+entrenchment 
+environment
+equational
+ergative 
+exaptation
+exception
+expectation
+evolution
+general
+Evolutionary Phonology
+Family Bias method
+finiteness
+first language acquisition 
+flagging
+focus 
+force dynamics
+free variation
+frequency
+functive 
+future 
+Galton's problem
+gender
+generative linguistics
+genitive 
+genre
+grammaticalization
+HPSG
+iconicity
+imperfective 
+implication
+indexation
+indirect object 
+inference
+infixation
+information structure
+general
+focus
+theme
+topic
+informativity
+innateness
+innovation
+instrument
+instrumental 
+intonation
+Invisible Hand
+juxtaposition
+labialization
+langue/parole
+learnability
+lenition 
+locative 
+markedness
+marked
+zero marking
+metaphor
+metathesis
+metonymy
+mixed-effects regression modelling
+modifier
+mood
+general
+conditional 
+imperative
+indicative
+optative
+mutational constraint
+nasalization
+nativism
+naturalness 
+negation
+network model
+nominalization
+nominative
+noun and noun phrase
+number 
+numeral
+oblique 
+Occam's Razor
+Optimality Theory
+overspecification
+parataxis
+parsing 
+participle
+partitive construction
+patient
+perfect
+perfective
+persistence
+person 
+phonological change
+general
+assimilation
+devoicing
+diphthongization
+Evolutionary Phonology
+labialization
+lenition
+metathesis
+nasalization
+phonetic/phonological reduction
+phylogenetic methods
+pidgin
+plural 
+possessive construction
+general
+alienability
+postposition 
+predictability 
+preposition
+Principles-and-Parameters theory
+probability matching
+processing
+production
+progressive
+pronoun
+propagation
+proper name
+purpose clause 
+psycholinguistic
+question
+quotative construction
+reanalysis
+reciprocal
+reconstruction
+reduplication
+referential hierarchy
+register
+regularization
+relative clause
+representation 
+resultative
+second language acquisition
+selection
+semantic role
+agent
+patient
+instrument
+separative
+singular
+split intransitivity
+stability
+strength 
+subject
+subordination
+general
+subordinator
+suppletion
+syntactic function
+general
+adjunct
+subject
+direct object
+indirect object
+suffixing preference
+syncretism
+temporal clause 
+tense
+general
+anterior
+past/preterite
+perfect
+future
+theme 
+topic 
+transfer effects
+transition probabilities
+transparency
+transitivity
+transmission
+propagation
+intergenerational
+tripartite alignment
+underspecification
+Universal Grammar
+usage-based approach
+valence
+verb and verb phrase
+voice
+general
+passive
+word order
+intraclausal 
+interclausal 
+OV/VO languages
+word-order correlations
+X-bar theory
+zero coding

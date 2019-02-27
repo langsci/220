@@ -1,2 +1,197 @@
-languages to index
-oneperline
+Language index
+Abkhaz
+French
+Lao
+Albanian
+Gbe
+Lavukaleve
+Afro-Asiatic
+Georgian
+Lezgian
+Aguaruna
+German
+Lolo 
+Ainu
+Germanic
+Loloish
+Amele
+Gooniyandi
+Louisiana Creole
+Ancient Egyptian
+Greek
+Maithili
+Angas
+Greenlandic 
+Malayalam
+Anglo-French
+Guaraní
+Mali
+Arabic
+Haitian Creole
+Mande
+Australian
+Hanis Coos
+Mangarayi
+Austronesian
+Hausa
+Mapudungun
+Awa Pit
+Hawaiian
+Marathi
+Awtuw
+Hebrew
+Martuthunira
+Bagandji
+Hixkaryana
+Matses
+Bambara
+Hmong Njua
+Mayan
+Bantu
+Hungarian
+Mayogo
+Barasano
+Hup
+Mbay
+Basque
+Ijo 
+Mekens
+Batak 
+Imonda
+Menya
+Begak Ida'an
+Indo-Aryan
+Mixtec 
+Bengali
+Indo-European
+Mosetén
+Berbice Dutch
+Inuit
+Motu
+Burmese
+Iranian
+Motuna
+Cariban
+Italian
+Musqueam
+Cariña
+Jamaican
+Nchanti
+Catalan
+Jamsay
+Ndyuka
+Cavineña
+Japanese
+Negerhollands
+Chadic
+Jarawara
+Newari 
+Chinese 
+Javanese
+Niger-Congo
+Choctaw
+Juba Arabic
+Nilo-Saharan
+Chumash 
+Kana
+Nganasan
+Coptic
+Kanuri
+Nkore-Kiga
+Cushitic
+Kayardild
+Noon
+Czech
+Kewa
+Oceanic
+Dagaare
+Khwe/Kxoe
+Ojibwe
+Danish
+Kiowa
+Papiá Kristang
+D{a}w
+Konso
+Persian
+Diu Indo-Portuguese
+Korafe
+Polish
+Donno S{o}
+Korean
+Portuguese
+Dravidian
+Koyra Chiini
+Purépecha
+Dutch
+Krio
+Qiang
+English
+Krongo
+Quechua 
+Epena Pedee
+Kwazá
+Rama
+Evenki
+Lahu
+Reunion Creole
+Ewe
+Lakota
+Romance
+Fongbe
+Lango
+Russian
+Santali
+Takia
+Uzbek
+Santome
+Tamashek/-q
+Vietnamese
+Semelai
+Tariana
+Wambaya
+Semitic
+Telkepe
+Wan
+Serbo-Croatian
+Tepehua
+Wappo
+Seychelles Creole
+Tetun
+Warao
+Shoshone 
+Tibetan
+Wari'
+Singlish
+Tibeto-Burman
+Waskia
+Sinhala
+Tiipay 
+Wayana
+Slave
+Tok Pisin
+Welsh
+Slavic
+Toqabaqita
+Yagua
+Slovak
+Trumai
+Yakan
+Songhay
+Tukang Besi
+Yimas
+Soninke
+Turkish
+Yucatec Maya
+Southern Paiute
+Twi
+Yukaghir 
+Spanish
+Tzutujil
+Yuracaré
+Supyire
+Ungarinjin
+Zamboanga Chabacano
+Taba
+Urarina
+Tagalog
+Uto-Aztecan
