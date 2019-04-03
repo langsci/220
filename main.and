@@ -26,7 +26,7 @@
   \item Bates, Elizabeth, \hyperpage{130}
   \item Bauer, Winifred, \hyperpage{131}
   \item Beckner, Clay, \hyperpage{iv, v}, \hyperpage{130}, 
-		\hyperpage{229}
+		\hyperpage{230}
   \item Behaghel, Otto, \hyperpage{99}
   \item Bentz, Christian, \hyperpage{180}
   \item Bickel, Balthasar, \hyperpage{iii, iv}, \hyperpage{3}, 
@@ -55,8 +55,8 @@
 		\hyperpage{39--41}, \hyperpage{52}, \hyperpage{56}, 
 		\hyperpage{63}, \hyperpage{113}, \hyperpage{124}, 
 		\hyperpage{129, 130}, \hyperpage{180}, \hyperpage{184}, 
-		\hyperpage{224}, \hyperpage{227, 228}, \hyperpage{231}, 
-		\hyperpage{233}, \hyperpage{235}
+		\hyperpage{224}, \hyperpage{227, 228}, 
+		\hyperpage{231--233}, \hyperpage{235}
 
   \indexspace
 
@@ -79,7 +79,7 @@
   \item Coghill, Eleanor, \hyperpage{163}
   \item Collins, Chris, \hyperpage{70, 71}, \hyperpage{75}
   \item Collins, Jeremy, \hyperpage{vi, vii}, \hyperpage{2}, 
-		\hyperpage{11}, \hyperpage{48}, \hyperpage{57}, 
+		\hyperpage{11}, \hyperpage{48}, \hyperpage{56}, 
 		\hyperpage{63}, \hyperpage{83}, \hyperpage{110}, 
 		\hyperpage{113}, \hyperpage{124}, \hyperpage{170}, 
 		\hyperpage{203}, \hyperpage{224}, \infn {4}{225}, 
@@ -100,7 +100,7 @@
 		\hyperpage{98}, \hyperpage{109}, \hyperpage{124, 125}, 
 		\hyperpage{127--129}, \hyperpage{167}, \hyperpage{170}, 
 		\hyperpage{193}, \hyperpage{224, 225}, 
-		\hyperpage{227--231}, \hyperpage{235}
+		\hyperpage{227--230}, \hyperpage{232}, \hyperpage{235}
   \item Croft, William, \hyperpage{iii, iv}, \hyperpage{7}, 
 		\hyperpage{26--28}, \hyperpage{33}, \hyperpage{39}, 
 		\hyperpage{51--53}, \hyperpage{124, 125}, 
@@ -157,7 +157,7 @@
 		\hyperpage{151}, \hyperpage{224}, \infn {4}{225}, 
 		\hyperpage{226}, \hyperpage{234}
   \item Du Bois, John W., \hyperpage{170}, \hyperpage{225}
-  \item Dunn, Michael, \hyperpage{53, 54}, \hyperpage{130}
+  \item Dunn, Michael, \hyperpage{53}, \hyperpage{130}
 
   \indexspace
 
@@ -184,7 +184,7 @@
   \item Ferreira, Victor S., \hyperpage{110}
   \item Filimonova, Elena, \hyperpage{32}
   \item Finney, Malcolm Awadajin, \hyperpage{190}
-  \item Fischer, Olga, \hyperpage{52, 53}
+  \item Fischer, Olga, \hyperpage{52, 53}, \hyperpage{227}
   \item Fischer, Susann, \hyperpage{138}
   \item Foley, William A., \hyperpage{2}, \hyperpage{109}
   \item Ford, Cecilia E., \hyperpage{100}
@@ -198,7 +198,7 @@
   \item Garnsey, Susan M., \hyperpage{132}
   \item Garrett, Andrew, \hyperpage{v}, \hyperpage{12}, \hyperpage{230}
   \item Gast, Volker, \hyperpage{232}
-  \item Gell-Mann, Murray, \hyperpage{151}, \hyperpage{229}
+  \item Gell-Mann, Murray, \hyperpage{151}, \hyperpage{230}
   \item Genetti, Carol, \hyperpage{104}, \hyperpage{109}
   \item Gentner, Dedre, \hyperpage{128}
   \item Gerner, Matthias, \hyperpage{161, 162}
@@ -221,8 +221,7 @@
   \item Griffiths, Thomas L., \hyperpage{151}, \hyperpage{205}
   \item Grimm, Scott, \hyperpage{127}
   \item Grossman, Eitan, \hyperpage{ix}, \hyperpage{185}, 
-		\hyperpage{195}, \hyperpage{227}, \hyperpage{234}, 
-		\hyperpage{236}
+		\hyperpage{195}, \hyperpage{227}, \hyperpage{235, 236}
   \item Gruber, Jeff, \hyperpage{75}
   \item Güldemann, Tom, \hyperpage{107--109}
 
@@ -252,8 +251,8 @@
 		\hyperpage{185}, \hyperpage{187, 188}, \hyperpage{191}, 
 		\hyperpage{193}, \hyperpage{203}, \hyperpage{207}, 
 		\hyperpage{210}, \hyperpage{216}, \hyperpage{224}, 
-		\infn {2}{225}, \hyperpage{226, 227}, 
-		\hyperpage{229--232}, \infn {11}{232}, \hyperpage{233}, 
+		\infn {2}{225}, \hyperpage{226, 227}, \hyperpage{229}, 
+		\hyperpage{231, 232}, \infn {11}{232}, \hyperpage{233}, 
 		\hyperpage{235}
   \item Hawkins, John A., \hyperpage{iv}, \hyperpage{vi, vii}, 
 		\hyperpage{2}, \hyperpage{7}, \hyperpage{14}, 
@@ -276,7 +275,7 @@
   \item Hetterle, Katja, \hyperpage{98}, \hyperpage{102}, 
 		\hyperpage{106}
   \item Hewson, John, \hyperpage{138}
-  \item Hickey, Raymond, \hyperpage{232}
+  \item Hickey, Raymond, \hyperpage{233}
   \item Himmelmann, Nikolaus P., \hyperpage{50}
   \item Hofling, Charles, \hyperpage{163}
   \item Holland, John H., \hyperpage{iv}
@@ -381,7 +380,7 @@
   \item Martins, Valteir, \hyperpage{157}
   \item Maslova, Elena, \hyperpage{iii}
   \item Matisoff, James, \hyperpage{161}
-  \item Matras, Yaron, \hyperpage{232}
+  \item Matras, Yaron, \hyperpage{232, 233}
   \item Maurer, Philippe, \hyperpage{188}
   \item Maurits, Luke, \hyperpage{151}
   \item McColl Millar, Robert, \hyperpage{138}
@@ -393,7 +392,7 @@
   \item Meyer, Julien, \hyperpage{180}
   \item Meyerhoff, Miriam, \hyperpage{188}
   \item Michaelis, Susanne Maria, \hyperpage{viii}, \hyperpage{187}, 
-		\hyperpage{227}, \hyperpage{229}, \infn {12}{232}
+		\hyperpage{227}, \hyperpage{229}, \infn {12}{232, 233}
   \item Mithun, Marianne, \hyperpage{29}
   \item Moravcsik, Edith A., \hyperpage{150}
   \item Mori, Junko, \hyperpage{100}
@@ -442,7 +441,7 @@
   \item Perfors, Amy, \hyperpage{208}
   \item Petrollino, Sara, \hyperpage{189}
   \item Pickering, Martin J., \hyperpage{110}
-  \item Pierrehumbert, Janet B., \hyperpage{231}
+  \item Pierrehumbert, Janet B., \hyperpage{232}
   \item Pinker, Steven, \hyperpage{48}
   \item Plank, Frans, \hyperpage{vi}, \hyperpage{8}, \hyperpage{150}
   \item Port, Robert, \hyperpage{iv}
@@ -484,7 +483,7 @@
 		\hyperpage{228, 229}, \hyperpage{233}
   \item Seuren, Pieter A. M., \hyperpage{187}
   \item Shain, Cory Adam, \hyperpage{163}
-  \item Shibatani, Masayoshi, \hyperpage{233}
+  \item Shibatani, Masayoshi, \hyperpage{234}
   \item Shinzato, Rumiko, \hyperpage{51}
   \item Silverstein, Michael, \hyperpage{28}, \hyperpage{153}
   \item Silvey, Catriona, \hyperpage{207}
@@ -515,7 +514,7 @@
 		\hyperpage{169}
   \item Thompson, Sandra A., \hyperpage{67}, \hyperpage{76}, 
 		\hyperpage{113}, \hyperpage{127}, \hyperpage{158, 159}, 
-		\hyperpage{231}
+		\hyperpage{232}
   \item Timberlake, Alan, \hyperpage{2}, \hyperpage{126}
   \item Tinits, Peeter, \hyperpage{207}
   \item Tomlin, Russell S., \hyperpage{7}

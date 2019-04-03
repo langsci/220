@@ -12,8 +12,8 @@
 		\hyperpage{48}, \hyperpage{52}, \hyperpage{55, 56}, 
 		\hyperpage{169}, \hyperpage{180}, \hyperpage{187}, 
 		\hyperpage{204--212}, \hyperpage{216}, 
-		\hyperpage{228, 229}, \hyperpage{231, 232}, 
-		\infn {12}{232}, \hyperpage{233}, \infn {13}{233}
+		\hyperpage{228, 229}, \hyperpage{231--233}, 
+		\infn {12}{233}, \infn {13}{233}
   \item actualization, \hyperpage{126}, \infn {3}{126}, \hyperpage{129}, 
 		\infn {5}{129}, \hyperpage{139}
   \item adaptation, \hyperpage{iv, v}, \hyperpage{vii--ix}, 
@@ -24,10 +24,11 @@
 		\hyperpage{16, 17}, \hyperpage{37, 38}, \infn {2}{38}, 
 		\hyperpage{39}, \hyperpage{63}, \hyperpage{109, 110}, 
 		\hyperpage{112}, \hyperpage{123, 124}, \infn {1}{125}, 
-		\hyperpage{129}, \hyperpage{138, 139}, \hyperpage{150}, 
-		\hyperpage{180, 181}, \hyperpage{184}, \hyperpage{191}, 
-		\hyperpage{193--195}, \hyperpage{207, 208}, 
-		\hyperpage{216}, \hyperpage{223, 224}, \infn {1}{224}, 
+		\hyperpage{129}, \hyperpage{137}, \hyperpage{139}, 
+		\hyperpage{150}, \hyperpage{180, 181}, \hyperpage{184}, 
+		\hyperpage{191}, \hyperpage{193--195}, 
+		\hyperpage{207, 208}, \hyperpage{216}, 
+		\hyperpage{223, 224}, \infn {1}{224}, 
 		\hyperpage{225, 226}, \infn {6}{226}, 
 		\hyperpage{227--232}, \infn {11}{232}, 
 		\hyperpage{233--235}
@@ -109,7 +110,7 @@
   \item binding theory, \hyperpage{7}
   \item bleaching, \hyperpage{35}, \hyperpage{77}, \hyperpage{112}, 
 		\infn {11}{232}
-  \item borrowing, \infn {12}{232}, \hyperpage{234, 235}
+  \item borrowing, \infn {12}{233}, \hyperpage{234, 235}
 
   \indexspace
 
@@ -154,7 +155,7 @@
   \item complementizer, \hyperpage{82}, \hyperpage{107}, 
 		\hyperpage{127}
   \item completive, \hyperpage{10}
-  \item complex adaptive system, \infn {1}{iv}, \hyperpage{229, 230}, 
+  \item complex adaptive system, \infn {1}{iv}, \hyperpage{230}, 
 		\hyperpage{233}
   \item complexity, \hyperpage{192}, \hyperpage{203}, \hyperpage{206}, 
 		\hyperpage{208}
@@ -206,7 +207,7 @@
   \item differential object marking, \hyperpage{vii, viii}, 
 		\hyperpage{127, 128}, \hyperpage{149}, 
 		\hyperpage{152--159}, \infn {5}{160}, 
-		\hyperpage{161--168}, \hyperpage{207}, \hyperpage{227}, 
+		\hyperpage{161--168}, \hyperpage{207}, \hyperpage{228}, 
 		\hyperpage{233}
   \item diffusion, \hyperpage{vii}, \hyperpage{125, 126}, 
 		\infn {3}{126}, \hyperpage{128, 129}, \hyperpage{228}
@@ -238,7 +239,7 @@
 		\hyperpage{232, 233}
   \item ejective, \hyperpage{5}
   \item embedding, \hyperpage{107}, \hyperpage{112}, \hyperpage{180}
-  \item entrenchment, \hyperpage{129}, \infn {9}{228}, \hyperpage{231}
+  \item entrenchment, \hyperpage{129}, \infn {9}{228}, \hyperpage{232}
   \item environment, \hyperpage{iv}, \hyperpage{37}, \hyperpage{180}, 
 		\hyperpage{216}, \infn {13}{233}
   \item epenthesis, \hyperpage{5}, \hyperpage{227}
@@ -248,7 +249,7 @@
 		\infn {4}{128}, \hyperpage{224}, \hyperpage{230}
   \item evolution, \hyperpage{iii, iv}, \hyperpage{13}, 
 		\hyperpage{37, 38}, \infn {2}{38}, \hyperpage{39}, 
-		\hyperpage{48}, \hyperpage{50}, \hyperpage{52--54}, 
+		\hyperpage{48}, \hyperpage{50}, \hyperpage{52, 53}, 
 		\hyperpage{103}, \hyperpage{112}, \hyperpage{125}, 
 		\hyperpage{130}, \hyperpage{149}, \hyperpage{169}, 
 		\hyperpage{181}, \hyperpage{216}, \hyperpage{229}
@@ -267,7 +268,7 @@
   \item finite, \hyperpage{50}, \hyperpage{83}, \hyperpage{104, 105}
   \item flagging, \hyperpage{139}, \hyperpage{152, 153}, 
 		\hyperpage{159, 160}, \hyperpage{164}, 
-		\hyperpage{168, 169}, \hyperpage{227}
+		\hyperpage{168, 169}, \hyperpage{228}
   \item focus, \hyperpage{4}, \hyperpage{7}, \hyperpage{64}, 
 		\hyperpage{105}, \hyperpage{161, 162}, \hyperpage{164}, 
 		\hyperpage{168}, \hyperpage{193--195}, \hyperpage{209}
@@ -283,7 +284,8 @@
 		\hyperpage{183, 184}, \infn {4}{184}, 
 		\hyperpage{185, 186}, \hyperpage{190--192}, 
 		\hyperpage{195}, \hyperpage{207}, \hyperpage{209, 210}, 
-		\hyperpage{213}, \hyperpage{215--217}, \hyperpage{231}
+		\hyperpage{213}, \hyperpage{215--217}, 
+		\hyperpage{231, 232}
   \item functive, \hyperpage{5}
   \item future, \hyperpage{10}, \hyperpage{128}, \hyperpage{187}, 
 		\hyperpage{236}
@@ -349,7 +351,7 @@
 		\infn {13}{233}
   \item innovation, \hyperpage{125, 126}, \infn {3}{126}, 
 		\hyperpage{129, 130}, \hyperpage{139}, 
-		\hyperpage{227, 228}
+		\hyperpage{227--229}
   \item instrumental, \hyperpage{v}, \hyperpage{29, 30}, 
 		\hyperpage{70--77}, \hyperpage{79}, \infn {3}{79}, 
 		\hyperpage{80}, \hyperpage{224}, \hyperpage{230}
@@ -426,7 +428,7 @@
 		\hyperpage{90}, \hyperpage{99, 100}, \hyperpage{102}, 
 		\hyperpage{108}, \infn {5}{108}, \hyperpage{110, 111}, 
 		\hyperpage{126--128}, \hyperpage{154--165}, 
-		\infn {8}{165}, \hyperpage{227}, \infn {9}{228}
+		\infn {8}{165}, \hyperpage{228}, \infn {9}{228}
   \item oblique, \hyperpage{31}, \infn {10}{230}
   \item Occam’s Razor, \hyperpage{224}
   \item optative, \hyperpage{5}
@@ -502,10 +504,10 @@
 		\hyperpage{112--115}, \hyperpage{123, 124}, 
 		\infn {1}{125}, \hyperpage{126, 127}, \infn {5}{129}, 
 		\hyperpage{130}, \infn {6}{130}, \hyperpage{132}, 
-		\infn {8}{133}, \hyperpage{134}, \hyperpage{136--139}, 
-		\hyperpage{163, 164}, \hyperpage{168, 169}, 
-		\hyperpage{180}, \infn {3}{225}, \hyperpage{227}, 
-		\infn {10}{230}, \hyperpage{233}
+		\infn {8}{133}, \hyperpage{134}, \hyperpage{136}, 
+		\hyperpage{138, 139}, \hyperpage{163, 164}, 
+		\hyperpage{168, 169}, \hyperpage{180}, \infn {3}{225}, 
+		\hyperpage{227}, \infn {10}{230}, \hyperpage{233}
   \item progressive, \hyperpage{10}, \infn {3}{126}
   \item pronoun, \hyperpage{27--32}, \hyperpage{35}, \hyperpage{50}, 
 		\hyperpage{98}, \hyperpage{126--128}, \hyperpage{150}, 
@@ -631,13 +633,13 @@
   \indexspace
 
   \item word order, \hyperpage{iii}, \hyperpage{14}, \hyperpage{16}, 
-		\hyperpage{26}, \hyperpage{47--49}, \hyperpage{52--55}, 
-		\hyperpage{64, 65}, \hyperpage{81}, \hyperpage{83}, 
-		\hyperpage{124}, \hyperpage{133, 134}, \infn {11}{134}, 
-		\hyperpage{138}, \infn {14}{138}, \hyperpage{139, 140}, 
-		\hyperpage{151, 152}, \hyperpage{159--161}, 
-		\hyperpage{168}, \hyperpage{204}, \hyperpage{210}, 
-		\hyperpage{217}
+		\hyperpage{26}, \hyperpage{47--49}, \hyperpage{52, 53}, 
+		\hyperpage{55}, \hyperpage{64, 65}, \hyperpage{81}, 
+		\hyperpage{83}, \hyperpage{124}, \hyperpage{133, 134}, 
+		\infn {11}{134}, \hyperpage{138}, \infn {14}{138}, 
+		\hyperpage{139, 140}, \hyperpage{151, 152}, 
+		\hyperpage{159--161}, \hyperpage{168}, \hyperpage{204}, 
+		\hyperpage{210}, \hyperpage{217}
   \item word-order correlation, \hyperpage{iv, v}, \hyperpage{vii}, 
 		\hyperpage{8}, \hyperpage{11}, \hyperpage{16}, 
 		\hyperpage{26}, \hyperpage{48}, \hyperpage{50--52}, 

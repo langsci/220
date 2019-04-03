@@ -32,8 +32,7 @@ main.snd: main.bbl
 	sed -i 's/.*Embassy.*//' main.adx
 	sed -i 's/.*Commission.*//' main.adx
 	sed -i 's/.*Consortium.*//' main.adx
-	sed -i 's/\\MakeCapital {([^}]* )}/\1/' main.adx
-	
+	sed -i 's/\\MakeCapital {\([^}]* \)}/\1/' main.adx	
 	sed -i 's/{Greenberg|/{Greenberg, Joseph H.@Greenberg, Joseph H.|/' main.adx
 	sed -i 's/{Haspelmath|/{Haspelmath, Martin@Haspelmath, Martin|/' main.adx
 	sed -i 's/{Cristofaro|/{Cristofaro, Sonia@Cristofaro, Sonia|/' main.adx
@@ -55,8 +54,7 @@ main.snd: main.bbl
 	sed -i 's/{Anderson|/{Anderson, Stephen R.@Anderson, Stephen R.|/' main.adx
 	sed -i 's/{Keenan|/{Keenan, Edward L.@Keenan, Edward L.|/' main.adx
 	sed -i 's/{Haiman|/{Haiman, John@Haiman, John|/' main.adx
-	sed -i 's/{Givón|/{Givón, Talmy@Givón, Talmy|/' main.adx
-	
+	sed -i 's/{Givón|/{Givón, Talmy@Givón, Talmy|/' main.adx	
 	sed -i 's/hyperindexformat{\\\(infn {[0-9]*\)}/\1/' main.ldx
 	python3 fixindex.py
 	mv mainmod.adx main.adx
